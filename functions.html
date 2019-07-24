@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
     <title>JavaScript Functions</title>
 </head>
 
@@ -14,6 +15,40 @@ function isLetter(char) {
     char = char.toLowerCase();
     return "abcdefghijklmnopqrstuvwxyz".indexOf(char) >= 0;
 }
+// var list1=["haah","12721","bad"]
+ispalindrome()
+function ispalindrome(){
+	var x=prompt("write a word")
+	var isPalindrome=true
+	for (var i = 0;i<parseInt(x.length);i++){
+		if(x[i-1]==x[x.length-i]){
+			console.log(x[i-1],x[x.length-1])	
+		}
+		
+		else {
+			console.log(i)
+			isPalindrome=false
+			}
+		}
+
+		if (isPalindrome==true){
+			alert("True")
+		}
+		else{
+			alert("False")
+		}
+	}		
+
+
+// console.log(x[i-1],x[x.length-i])	
+		
+		
+		// else {
+		// 	console.log(i)
+		// 	isPalindrome=false
+		// 	}
+		// }
+	
 
 // Write your isPalindrome function here!
 
